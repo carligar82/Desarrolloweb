@@ -3,7 +3,10 @@ const mensaje = document.getElementsByTagName('h3')[0];
 let cont =""
 function onKeyDownHandler(event) {
   var codigo = event.which || event.keyCode;
-  cont = cont + String.fromCharCode(codigo)
+  if (codigo == 8)
+    cont = cont.slice(0, -1)
+  else
+    cont = cont + String.fromCharCode(codigo)
   if (cont.length<8){
     mensaje.className = "red"
     mensaje.innerText = "Contraseña no segura"
