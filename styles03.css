@@ -1,55 +1,54 @@
-.red {
+.red{
     color: red;
     font-size: 1.5em;
     font-weight: bold;
     unicode-bidi: isolate;
 }
-.green {
+.green{
     color: green;
     font-size: 1.5em;
     font-weight: bold;
     unicode-bidi: isolate;
 }
-.yellow {
+.yellow{
     color: yellow;
     font-size: 1.5em;
     font-weight: bold;
     unicode-bidi: isolate;
 }
-div {
-}
-display: flex;
-margin-top: 5cm;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-div > input {
+div>input{
     width: 25%;
     border-radius: 3cm;
     border-width: 3px;
 }
-div1 {
-}
-display: flex;
-margin-top: 5cm;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-div > input {
-    width: 25%;
-    border-radius: 3cm;
-    border-width: 3px;
-}
-
-div2 {
+div{
     display: flex;
-    margin-top: 5cm;
+    margin-top: 5cm;;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.button {
+.no{
     width: 25%;
     border-radius: 3cm;
     border-width: 3px;
+    border-color: grey;
+    background-color: grey;
+    color: white;
+    text-justify: auto;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.si{
+    width: 25%;
+    border-radius: 3cm;
+    border-width: 3px;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    text-justify: auto;
+    cursor: pointer;
+}
+body{
+    background-color: orange;
 }
