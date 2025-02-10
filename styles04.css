@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja1{
+    display: flex;
+    width: 24%;
+    padding-left: 0.5cm;
+    padding-bottom: 0.2cm;
+    border: 1px solid rgba(96, 103, 96, 0.085);
+    border-radius: 1cm;
+    flex-direction: column;
+    justify-content: center;
+        
+}
+input{
+    width: 85%;
+    height: 1.1cm;
+    align-content: center;
+    border: 1px solid rgba(96, 103, 96, 0.085);
+    border-radius: 1cm;
+}
+.boton{
+    margin-top: 1.5cm;
+    width: 85%;
+    height: 1.1cm;
+    align-content: center;
+    justify-content: center;
+    border: 1px;
+    border-radius: 1cm;
+    background-color: red;
+    color: white;
+}
+.caja2{
+    display: flex;
+    width: 83%;
+    margin-top: 0.1cm;
+    padding-left: 0.3cm;
+    padding-bottom: 1.1cm;
+    border: white;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;      
+}
+
